@@ -1,1 +1,7 @@
-https://github.com/shliakhovai/atom-space
+# Домашнє завдання
+
+Завдання цього тижня виконується в окремому репозиторії.
+
+Повний опис завдання, вимоги та критерії оцінювання знаходяться там:
+
+[atom-space](https://github.com/shliakhovai/atom-space)
