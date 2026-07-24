@@ -17,6 +17,7 @@
 | 7 | `asyncio`, `asyncio.gather()`, `asyncio.Lock()` | [seventh_homework.md](seventh_homework.md) |
 | 8 | Telegram Bot | [eighth_homework_tg_bot.md](eighth_homework_tg_bot.md) |
 | 9 | Pre-commit hooks та їх налаштування | [ninth_homework/ninth_homework.md](ninth_homework/ninth_homework.md) |
+| 10 | Pydantic: `BaseModel`, `@field_validator`, `@model_validator` | [tenth_homework/tenth_homework.md](tenth_homework/tenth_homework.md) |
 
 ---
 
@@ -48,6 +49,9 @@
 
 ### 9. Pre-commit hooks
 Налаштування pre-commit hooks для автоматичної перевірки коду перед кожним комітом.
+
+### 10. Бронювання авіаквитків з Pydantic
+Моделі `Passenger`, `Flight` та `Ticket` на основі `BaseModel` із вкладеністю: валідація окремих полів через `@field_validator` (вік, ціна, номер місця), крос-валідація через `@model_validator` (унікальність маршруту, аварійні ряди для дітей) та обчислювані `@property` (`full_name`, `route`, `total_price`).
 
 ---
 
